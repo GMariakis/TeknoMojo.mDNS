@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- NuGet Package Properties -->
+    <PackageId>TeknoMojo.mDNS.Core</PackageId>
+    <Version>2.0.0</Version>
+    <Authors>TeknoMojo</Authors>
+    <Company>TeknoMojo</Company>
+    <Product>TeknoMojo mDNS</Product>
+    <Description>A .NET 11 library for multicast DNS (mDNS) service discovery and advertising. Supports DNS-SD protocol for discovering and announcing network services.</Description>
+    <PackageTags>mdns;dns-sd;service-discovery;zeroconf;bonjour;avahi;multicast</PackageTags>
+    <PackageProjectUrl>https://github.com/GMariakis/TeknoMojo.mDNS</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GMariakis/TeknoMojo.mDNS</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) 2025 TeknoMojo</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <!-- Build Settings -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
+    <PackageReference Include="System.Reactive" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TeknoMojo.mDNS.AirPlay.Client/TeknoMojo.mDNS.AirPlay.Client.csproj" />
+    <Project Path="src/TeknoMojo.mDNS.AirPlay/TeknoMojo.mDNS.AirPlay.csproj" />
+    <Project Path="src\TeknoMojo.mDNS.Client\TeknoMojo.mDNS.Client.csproj" />
+    <Project Path="src\TeknoMojo.mDNS.Core\TeknoMojo.mDNS.Core.csproj" />
+    <Project Path="src\TeknoMojo.mDNS.Messages\TeknoMojo.mDNS.Messages.csproj" />
+    <Project Path="src\TeknoMojo.mDNS.ServiceHost\TeknoMojo.mDNS.ServiceHost.csproj" />
+  </Folder>
+  <Properties Name="Configuration">
+    <Property Name="Debug|Any CPU" />
+    <Property Name="Release|Any CPU" />
+  </Properties>
+</Solution>

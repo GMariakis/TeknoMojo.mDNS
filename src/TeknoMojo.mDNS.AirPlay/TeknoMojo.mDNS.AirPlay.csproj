@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- NuGet Package Properties -->
+    <PackageId>TeknoMojo.mDNS.AirPlay</PackageId>
+    <Version>2.0.0</Version>
+    <Authors>TeknoMojo</Authors>
+    <Company>TeknoMojo</Company>
+    <Product>TeknoMojo mDNS AirPlay</Product>
+    <Description>AirPlay/RAOP protocol implementation for .NET 11. Enables audio streaming to AirPlay devices discovered via mDNS.</Description>
+    <PackageTags>airplay;raop;audio;streaming;mdns;apple</PackageTags>
+    <PackageProjectUrl>https://github.com/GMariakis/TeknoMojo.mDNS</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GMariakis/TeknoMojo.mDNS</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) 2025 TeknoMojo</Copyright>
+
+    <!-- Build Settings -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeknoMojo.mDNS.Core\TeknoMojo.mDNS.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="NAudio" />
+    <PackageReference Include="plist-cil" />
+    <PackageReference Include="Portable.BouncyCastle" />
+    <PackageReference Include="srp" />
+  </ItemGroup>
+
+</Project>

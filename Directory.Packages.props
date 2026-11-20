@@ -1,0 +1,35 @@
+<Project>
+  <ItemGroup>
+    <!-- Microsoft.Extensions -->
+    <PackageVersion Include="Microsoft.AspNetCore.Server.Kestrel.Core" Version="2.3.6" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="10.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Options" Version="10.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="10.0.1" />
+    <!-- ASP.NET Core (for ServiceHost - older versions for compatibility) -->
+    <PackageVersion Include="Microsoft.AspNetCore" Version="2.3.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Routing" Version="2.3.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
+    <!-- ASP.NET Core (for Client - .NET 10 versions) -->
+    <PackageVersion Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.1" />
+    <!-- Serialization -->
+    <PackageVersion Include="MessagePack" Version="3.1.8" />
+    <!-- Reactive Extensions -->
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageVersion Include="srp" Version="1.0.7" />
+    <PackageVersion Include="System.Reactive" Version="6.1.0" />
+    <!-- Logging -->
+    <PackageVersion Include="Serilog.Extensions.Hosting" Version="10.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageVersion Include="Serilog.Sinks.File" Version="7.0.0" />
+    <!-- Audio -->
+    <PackageVersion Include="NAudio" Version="2.2.1" />
+    <!-- Plist parsing (Apple binary/XML property lists) -->
+    <PackageVersion Include="plist-cil" Version="2.2.0" />
+    <!-- Cryptography for HomeKit-style pairing (Ed25519, Curve25519, SRP, ChaCha20-Poly1305) -->
+    <PackageVersion Include="Portable.BouncyCastle" Version="1.9.0" />
+  </ItemGroup>
+</Project>
