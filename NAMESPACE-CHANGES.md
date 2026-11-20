@@ -137,7 +137,6 @@ The namespace migration was performed using automated find-and-replace operation
 
 ## Documentation Updates
 
-- **CLAUDE.md**: Added namespace structure documentation and naming conventions
 - **This file**: Created to document the namespace migration
 
 ## Impact
@@ -175,7 +174,7 @@ Only the internal namespaces have changed.
 
 ## Future Development
 
-All new code must use the `TeknoMojo.mDNS.*` namespace prefix as documented in [CLAUDE.md](CLAUDE.md).
+All new code must use the `TeknoMojo.mDNS.*` namespace prefix.
 
 ## Date
 
