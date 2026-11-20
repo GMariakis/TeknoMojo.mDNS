@@ -1,5 +1,7 @@
 # mDNS Service Discovery
 
+> **Experimental software.** These libraries are intended for evaluation and prototyping. Production use is unsupported, and APIs and behavior may change as validation continues.
+
 A complete mDNS (Multicast DNS) service discovery implementation for .NET 11, similar to Apple's Bonjour. This library allows services to advertise themselves on the local network and enables clients to discover and connect to those services automatically.
 
 ## Features
